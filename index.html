@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app" class="container">
+      <h1 class="heading">Todo App</h1>  
+      <h3 class="sub-heading">[ Made with JQuery + Vite ]</h3>
+
+      <ul type="none" id="todo-list" class="list">
+          <li id="test-item" class="todo-item">
+            <p class="todo-text">Test</p>
+            <div class="delete">x</div>
+          </li>
+        </ul>
+      <section id="controls">
+        <form class="todo-form">
+          <input 
+            id="new-todo" 
+            class="form-control" 
+            type="text" 
+            name="text"
+            required />
+
+        </form>
+          <button id="submit" class="btn">Send</button>
+        
+      </section>
+    </div>
+    
+    <footer>
+    </footer>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,77 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  justify-content: center;
+  border: 5px solid black;
+  width: 80%;
+  height: 80%;
+}
+.heading {
+  margin: 0;
+}
+.sub-heading {
+  margin-bottom: 0;
+}
+
+.control-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#todo-list {
+  border: 3px solid black;
+  height: 75%;
+  width: 25%;
+  overflow: scroll;
+}
+
+
+.todo-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  padding: 2px;
+}
+.todo-text {
+  font-size: 24px;
+}
+#controls {
+  display: flex;
+  flex-direction: row;
+}
+
+#new-todo {
+  height: 24px;
+  border: 3px solid black;
+  border-radius: .4rem;
+  padding-left: 5px;
+}
+#submit {
+  margin-left: 10px;
+  
+  border-radius: .4rem;
+}
+.delete {
+  margin-left: 10px;
+  color: red;
+  font-size: 24px;
+}
