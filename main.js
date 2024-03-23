@@ -2,7 +2,6 @@ import './style.css';
 import $ from 'jquery';
 
 
-
 $('#submit')
   .on("click",
     function(){
